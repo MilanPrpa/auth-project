@@ -7,9 +7,9 @@ const Login = () => {
 
   const onSubmitAuth = (e) => {
     e.preventDefault();
+    console.log(email)
 
-
-    window.location.reload();
+    //window.location.reload();
   }
 
 
